@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    /* remove if you need */
+    background-color: black;
+}
+
+/* This Style is from artefacto.com */
+body .container {
+    width: 85%;
+    max-width: 1920px;
+    padding-bottom: 30px;
+}
+/* This Style is from artefacto.com */
+
+.sbc-overall-wrapper {
+    background-color: black;
+    padding: 60px 0;
+}
+
+.home-main-content__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 56px 0;
+    position: relative;
+}
+
+.home-main-content__content-image,
+.home-main-content__content-content {
+    position: relative;
+    z-index: 1;
+}
+
+
+.home-main-content__content-image {
+    flex-basis: 475px;
+}
+
+.home-main-content__content-content {
+    flex-basis: calc(100% - 550px);
+    padding-right: 60px;
+}
+
+.sbc-overall-wrapper p {
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.sbc-overall-wrapper .resalted-p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.sbc-overall-wrapper p:last-child {
+    margin-bottom: 0;
+}
+
+.sbc-overall-wrapper .resalted-p:last-child {
+    margin-bottom: 30px;
+}
+
+.home-main-content__underlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: calc(100% - 125px);
+    background-color: #313131;
+}
+
+.sbc-overall-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sbc-overall-wrapper ul li {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.sbc-overall-wrapper ul li a {
+    color: #E5E3D9;
+    text-decoration: none !important;
+}
+
+.home-convenience-list {
+    padding-top: 50px;
+}
+
+/* This Style is from artefacto.com */
+@media (max-width: 1024px){
+    body .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 414px){
+    body .container {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/* This Style is from artefacto.com */
+
+@media (max-width: 1439px){
+    .home-main-content__content-image {
+        flex-basis: 350px;
+    }
+
+    .home-main-content__content-content {
+        flex-basis: calc(100% - 425px);
+    }
+}
+
+@media (max-width: 1199px){
+    .home-main-content__content-image {
+        flex-basis: 300px;
+    }
+
+    .home-main-content__content-content {
+        flex-basis: calc(100% - 375px);
+    }
+}
+
+@media (max-width: 1099px){
+    .home-main-content__content-image {
+        flex-basis: 250px;
+    }
+
+    .home-main-content__content-content {
+        flex-basis: calc(100% - 300px);
+    }
+}
+
+@media (max-width: 1023px){
+    .home-main-content__underlay {
+        width: 100%;
+    }
+
+    .home-main-content__content-image {
+        left: 15px;
+    }
+
+    .home-main-content__content-content {
+        padding-right: 15px;
+    }
+ 
+    .home-main-content__content {
+        padding: 15px 0 40px;
+    }
+}
+
+@media (max-width: 991px){
+    .home-main-content__content-image {
+        flex-basis: 100%;
+        left: 0;
+    }
+
+    .home-main-content__content-content {
+        padding-right: 0;
+        flex-basis: 100%;
+        margin-top: 30px;
+    }
+
+    .home-main-content__content {
+        padding: 15px 15px 40px;
+    }
+
+    .home-convenience-list {
+        padding-top: 20px;
+    }
+}
